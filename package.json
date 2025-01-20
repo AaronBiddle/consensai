@@ -1,0 +1,41 @@
+{
+  "name": "consensai",
+  "version": "1.0.0",
+  "description": "ConsensAI is an open-source platform that uses AI to help groups explore ideas, find common ground, and develop nuanced solutions through collaborative dialogue.",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs",
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AaronBiddle/consensai.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AaronBiddle/consensai/issues"
+  },
+  "homepage": "https://github.com/AaronBiddle/consensai#readme",
+  "dependencies": {
+    "autoprefixer": "^10.4.20",
+    "express": "^4.21.2",
+    "mongoose": "^8.9.5",
+    "next": "^15.1.5",
+    "openai": "^4.79.1",
+    "postcss": "^8.5.1",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "socket.io": "^4.8.1",
+    "tailwindcss": "^3.4.17"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.7",
+    "@types/react": "^19.0.7",
+    "typescript": "^5.7.3"
+  }
+}
